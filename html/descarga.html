@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Alerta</title>
+<link href="../css/estilos_error.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.2.6.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            setTimeout(function(){ $(".mensajes").fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(100);}, 1500);  
+			setTimeout("location.href='../includes/descarga.php'", 3000);
+
+        });
+
+</script>
+</head>
+<body>
+<div class="exito mensajes">Video Descargado consulte su carpeta de "videosusuario"</div>
+</body>
+</html>
+
